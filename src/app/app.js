@@ -3,6 +3,10 @@ angular.module( 'ngBoilerplate', [
   'templates-common',
   'ngBoilerplate.home',
   'ngBoilerplate.about',
+  'ngBoilerplate.movies',
+  'ngBoilerplate.music',
+  'ngBoilerplate.tv',
+  'ngBoilerplate.remote',
   'ui.router'
 ])
 
