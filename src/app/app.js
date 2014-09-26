@@ -20,10 +20,13 @@ angular.module( 'ngBoilerplate', [
 .controller( 'AppCtrl', function AppCtrl ( $scope, $location ) {
   $scope.$on('$stateChangeSuccess', function(event, toState, toParams, fromState, fromParams){
     if ( angular.isDefined( toState.data.pageTitle ) ) {
-      $scope.pageTitle = toState.data.pageTitle + ' | ngBoilerplate' ;
+      $scope.pageTitle = toState.data.pageTitle ;
+
+      var qoute = toState.data.qoutes[Math.floor(Math.random() * toState.data.qoutes.length)];
+      $scope.qoute =  qoute.qoute;
+      $scope.author = qoute.author;
     }
   });
 })
 
 ;
-

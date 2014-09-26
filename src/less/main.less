@@ -20,7 +20,6 @@
 
 @import 'variables.less';
 
-
 /**
  * Typography
  */
@@ -68,14 +67,39 @@ h2 {
  */
 
 .navbar {
-  margin-top: 20px;
-  
+  background-color: #fff;
+  border-color: #fff;
   small {
     font-size: 60%;
   }
+  margin-bottom: 0px;
 }
 
 
+/**
+ * Header
+ */
+.page-master-header {
+  #gradient.vertical-three-colors(#587; #498; 25%; #489);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+
+  h1 {
+    color: #fff;
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+  p {
+    font-size: 30px;
+    color: #9dd;
+    font-weight: 200;
+    line-height: 1.4;
+  }
+}
+ 
 /**
  * Footer
  */

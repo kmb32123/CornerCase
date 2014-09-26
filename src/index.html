@@ -112,6 +112,20 @@
         </div>
       </div>
     </div>
+    
+    <div class="page-header page-master-header">
+        <div class="container">
+            <h1 ng-bind="pageTitle"></h1>
+            <p>
+                <span style="color: #0f0; font-weight: bold; font-size: 36px;">&ldquo;</span>
+                {{qoute}}
+                <span style="color: #0f0; font-weight: bold; font-size: 36px;">&rdquo;</span>
+            </p>
+            <p align="right">
+                - {{author}}
+            </p>
+        </div>
+    </div>
 
     <div class="container" ui-view="main"></div>
 

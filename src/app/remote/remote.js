@@ -13,7 +13,18 @@ angular.module( 'ngBoilerplate.remote', [
         templateUrl: 'remote/remote.tpl.html'
       }
     },
-    data:{ pageTitle: 'What is It?' }
+    data:{ pageTitle: 'Remote',
+
+    qoutes: [ {
+                qoute:"If life had a remote control, I would: PAUSE the beautiful moments; REWIND my mistakes. FASTFORWARD through the heartbreak; STOP the drama; PLAY the rest.", 
+                author:"Unknown"
+            }, {
+                qoute:"Life does not have a remote control; you need to get up and change it yourself.", 
+                author:"Damien L. Malcolm"
+            }, {
+                qoute:"He who controls the remote, controls the world", 
+                author:"Julie Garwood"
+            }]}
   });
 })
 
